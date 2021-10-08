@@ -28,6 +28,8 @@ export default {
     /* ... */
   },
   devOptions: {
+    port: 5100,
+    open: 'none',
     /* ... */
   },
   buildOptions: {

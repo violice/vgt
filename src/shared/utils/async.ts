@@ -19,7 +19,7 @@ const async = <T>(
       if (options.keepPreviousData) {
         update((asyncStore: AsyncStore<T>) => ({ ...asyncStore, isLoading: true, error: null }));
       } else {
-        set({ isLoading: false, data: options.initialData, error: null });
+        set({ isLoading: true, data: options.initialData, error: null });
       }
 
       const data = await requestFn(requestParams);

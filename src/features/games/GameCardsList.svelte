@@ -31,7 +31,7 @@
 <div class={rootStyle} on:scroll={onScroll}>
   <div class={cardsGridStyle}>
     {#each games as game}
-      <GameCard name={game.name} image={game.image} />
+      <GameCard name={game.name} image={game.image} slug={game.slug} />
     {/each}
   </div>
   <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

@@ -1,1 +1,1 @@
-export { default as GameCardsList } from './components/GameCardsList.svelte';
+export { default as GameCardsList } from './GameCardsList.svelte';

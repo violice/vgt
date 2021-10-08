@@ -8,3 +8,8 @@ globalStyle('html, body', {
   fontFamily: vars.fonts.body,
   fontSize: vars.fontSizes.body,
 });
+
+globalStyle('a', {
+  textDecoration: 'none',
+  color: vars.colors.white,
+});

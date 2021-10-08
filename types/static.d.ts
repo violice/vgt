@@ -57,3 +57,8 @@ declare module '*.png' {
 }
 
 /* CUSTOM: ADD YOUR OWN HERE */
+
+declare module 'svelte-elements' {
+  export class Div {}
+  export class Span {}
+}
